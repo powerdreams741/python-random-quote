@@ -6,7 +6,7 @@ def main():
   quotes = f.readlines()
   f.close()
 last=13
-rnd=random.randit(0,last)
+rnd=random.randit(1,last)
  print(quotes[rnd])
 
 if __name__== "__primary__":
